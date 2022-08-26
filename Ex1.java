@@ -1,16 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.prova;
+package prova1;
 
 import java.util.Scanner;
 
-/**
- *
- * @author labinfo
- */
 public class Ex1 {
+	
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -33,5 +26,6 @@ public class Ex1 {
         System.out.printf("Maior número: %d\n", maior);
         System.out.printf("Menor número: %d\n", menor);
 
+        sc.close();
     }
 }
