@@ -1,17 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.prova;
+package prova1;
 
 import java.util.Scanner;
 
-/**
- *
- * @author labinfo
- */
 public class Ex3 {
-    public static void main(String[] args) {
+
+	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Informe a massa inicial em gramas: ");
@@ -33,5 +26,6 @@ public class Ex3 {
         System.out.println("Massa final: " + massaFinal);
         System.out.printf("Tempo: %d horas, %d minutos e %d segundos.", horas, minutos, segundos);
         
+        sc.close();
     }
 }
